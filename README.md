@@ -42,3 +42,13 @@
 #### - sudo rm /var/lib/dpkg/info/*		: 하위폴더 삭제
 #### - sudo apt-get autoremove			: 관련된 쓰레기 파일 자동 삭제
 #### - sudo apt-get autoclean			: 자동 최적화
+<hr/>
+
+### git 동기화 에러시 해결방법
+#### - git fetch --all : 웹에서 커밋된 파일을 로컬에 패치
+#### - git reset --hard origin/main : --hard 옵션으로 리셋
+<hr/>
+
+### git 마크다운 관련 링크
+#### https://gist.github.com/ihoneymon/652be052a0727ad59601
+<hr/>
