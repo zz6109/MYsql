@@ -3,6 +3,7 @@
 
 ## 240802(금) 수업 내용 정리
 
+
 ### 개요
 #### - DBMS: DataBase Management System
 #### - IP: 127.0.0.1은 자기 자신을 뜻한다.
@@ -18,10 +19,12 @@
 #### - create user 이름@localhost identified by '이름';
 #### - grant all privileges on 데이터베이스. * to 이름@localhost;
 #### - commit;
+<hr/>
 
 ### mysql 명령어
 #### - show (databases, help...); 	목록을 볼수 있다.
 #### - create (database, user...);	새롭게 생성할 수 있다.
+<hr/>
 
 ### 터미널 mysql관련 명령어
 #### - sudo mysql -u root -p : mysql 프롬프트 접근
@@ -30,6 +33,7 @@
 #### - sudo ufw enable/disable : 방화벽 켜기/끄기
 #### - sudo apt-get remove --purge mysql* : mysql에 관련된 파일들을 환경변수에 상관없이 삭제
 #### - --purge : 환경변수 무시
+<hr/>
 
 ### mysql 삭제관련 기타사항
 #### - sudo rm -rf /etc/mysql /var/lib/mysql	: 하위폴더 삭제
