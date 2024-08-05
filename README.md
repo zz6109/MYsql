@@ -33,6 +33,7 @@
 #### - sudo ufw enable/disable : 방화벽 켜기/끄기
 #### - sudo apt-get remove --purge mysql* : mysql에 관련된 파일들을 환경변수에 상관없이 삭제
 #### - --purge : 환경변수 무시
+#### - ALTER USER root@localhost IDENTIFIED WITH mysql_native_password BY '비밀번호': root계정 비밀번호 변경
 <hr/>
 
 ### mysql 삭제관련 기타사항
